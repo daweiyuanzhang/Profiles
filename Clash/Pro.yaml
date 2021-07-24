@@ -661,6 +661,7 @@ Rule:
 - DOMAIN-SUFFIX,tvb.com,GlobalMedia
 # > Netflix
 # USER-AGENT,Argo*,GlobalMedia
+- DOMAIN-SUFFIX,fast.com,GlobalMedia
 - DOMAIN-SUFFIX,netflix.com,GlobalMedia
 - DOMAIN-SUFFIX,netflix.net,GlobalMedia
 - DOMAIN-SUFFIX,nflxext.com,GlobalMedia
@@ -698,6 +699,7 @@ Rule:
 - DOMAIN-SUFFIX,pbs.org,GlobalMedia
 # > Pornhub
 - DOMAIN-SUFFIX,phncdn.com,GlobalMedia
+- DOMAIN-SUFFIX,phprcdn.com,GlobalMedia
 - DOMAIN-SUFFIX,pornhub.com,GlobalMedia
 - DOMAIN-SUFFIX,pornhubpremium.com,GlobalMedia
 # > 台湾好
@@ -1080,6 +1082,7 @@ Rule:
 - DOMAIN-SUFFIX,wattpad.com,PROXY
 - DOMAIN-SUFFIX,whoer.net,PROXY
 - DOMAIN-SUFFIX,wikimapia.org,PROXY
+- DOMAIN-SUFFIX,wikimedia.org,PROXY
 - DOMAIN-SUFFIX,wikipedia.org,PROXY
 - DOMAIN-SUFFIX,wikiquote.org,PROXY
 - DOMAIN-SUFFIX,wikiwand.com,PROXY
@@ -1438,14 +1441,18 @@ Rule:
 # > Tencent
 # USER-AGENT,MicroMessenger%20Client,DIRECT
 # USER-AGENT,WeChat*,DIRECT
+# USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
 - DOMAIN-SUFFIX,gtimg.com,DIRECT
 - DOMAIN-SUFFIX,idqqimg.com,DIRECT
 - DOMAIN-SUFFIX,igamecj.com,DIRECT
 - DOMAIN-SUFFIX,myapp.com,DIRECT
 - DOMAIN-SUFFIX,myqcloud.com,DIRECT
 - DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,servicewechat.com,DIRECT
 - DOMAIN-SUFFIX,tencent.com,DIRECT
 - DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN,file-igamecj.akamaized.net,DIRECT
 # > YYeTs
 # USER-AGENT,YYeTs*,DIRECT
 - DOMAIN-SUFFIX,jstucdn.com,DIRECT
@@ -1555,6 +1562,8 @@ Rule:
 - DOMAIN-SUFFIX,wiley.com,DIRECT
 - DOMAIN-SUFFIX,worldbank.org,DIRECT
 - DOMAIN-SUFFIX,worldscientific.com,DIRECT
+# > Plex Media Server
+- DOMAIN-SUFFIX,plex.tv,DIRECT
 # > Other
 - DOMAIN-SUFFIX,cn,DIRECT
 - DOMAIN-SUFFIX,360in.com,DIRECT
